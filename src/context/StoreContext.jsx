@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { food_list } from "../assets/assets";
+import { food_list } from "../assets/app_assets";
 
 export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {

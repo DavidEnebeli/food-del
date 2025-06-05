@@ -1,6 +1,6 @@
 import React from 'react'
 import './LoginPopup.css'
-import { assets } from '../../assets/Assets'
+import { appAssets } from '../../assets/app_assets';
 import { useState } from 'react'
 
 const LoginPopup = ({setShowLogin}) => {
@@ -15,7 +15,7 @@ const LoginPopup = ({setShowLogin}) => {
        <form className='login-popup-container'>
         <div className='login-popup-title'>
             <h2>{currState}</h2>
-            <img onClick={()=>setShowLogin(false)} src={assets.cross_icon} alt="" />
+            <img onClick={()=>setShowLogin(false)} src={appAssets.cross_icon} alt="" />
         </div>
         <div className="login-popup-inputs">
             {currState==="Login"?<></>:<input type="text" placeholder='Your name' required />}

@@ -1,17 +1,17 @@
 import React from 'react'
 import './Footer.css'
-import { assets } from '../../assets/Assets'
+import { appAssets } from '../../assets/app_assets'
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img className="footer-logo"src={assets.logo} alt="" />
+                <img className="footer-logo"src={appAssets.logo} alt="" />
                 <p>Bringing your favorite African meals straight to your doorstep — fast, fresh, and flavorful.</p>
                 <div className='footer-social-icons'>
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.instagram_icon} alt="" />
-                    <img src={assets.whatsapp_icon} alt="" />
+                    <img src={appAssets.facebook_icon} alt="" />
+                    <img src={appAssets.instagram_icon} alt="" />
+                    <img src={appAssets.whatsapp_icon} alt="" />
                 </div>
 
 

@@ -38,7 +38,7 @@ import food_21 from './food_21.png'
 import food_22 from './food_22.png'
 import food_23 from './food_23.png'
 
-export const assets = {
+export const appAssets = {
     logo,
     search_icon,
     basket_icon,
